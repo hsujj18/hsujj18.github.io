@@ -1,0 +1,92 @@
+
+
+.main{
+    float:middle;
+    width: 100%;
+    height: 1000px;
+    color:white;
+    opacity: 50%;
+}
+.container {
+    margin:auto;
+    width:1000px;
+    height: 500px;
+    background-color: red;
+}
+/* Use amedia query to add a nreakpoint at 800px: */
+@media screen and (max-width: 800px){
+    .nav, .main, .header {
+        width: 100%;
+    }
+}
+
+.logo {
+    float: left;
+    width: 90px;
+    height: 100px;
+  
+    border: none:
+}
+.topbar {
+    height:100px;
+    width:100%;
+    line-height: 100px;
+    background-color: grey;
+    
+}
+.sidebar{
+    background-color: grey;
+    float:left;
+    width:90px;
+    height:1000px;
+    position:fixed;
+    line-height: 80px;
+    font-size: 15px;
+}
+
+.heading{
+    float: top;
+    width: 90px;
+    height:100px;
+    
+
+}
+img {
+    background-color: transparent;
+}
+.menu {
+    position: fixed;
+    top:0;
+    left:0;
+    margin: left;
+    width: 100%;
+    background-color:grey;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    z-index: 5;
+}
+
+body {
+}
+    height: 1000px;
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+    
+}
+
+body {
+    
+}
+
+
+h1 {
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
